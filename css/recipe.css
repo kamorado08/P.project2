@@ -9,9 +9,9 @@ body {
 }
 
 /* Title */
-h1 {
+h1, h2 {
     text-align: center;
-    color: #333;
+    color: #c323a0;
     margin-bottom: 30px;
 }
 
