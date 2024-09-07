@@ -1,0 +1,39 @@
+ <!--
+ Karen Morado
+ Advance Web Design 
+ Programming Project 1
+ 09/08g/2024
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Recipe</title>
+    <script src="scripts/Recipe.js" defer></script>
+    <link rel="stylesheet" href="css/recipe.css" />
+</head>
+<body>
+
+    <h1>Create Your Recipe</h1>
+    <h2>by Karen Morado</h2>
+    
+
+    <!-- Ingredient input section -->
+    <h3>Ingredients</h3>
+    <input type="text" id="ingredientInput" placeholder="Enter ingredient">
+    <button onclick="addIngredient()">Add Ingredient</button>
+
+    <!-- Display ingredient list -->
+    <ul id="ingredientList"></ul>
+
+    <!-- Instruction input section -->
+    <h3>Instructions</h3>
+    <input type="text" id="instructionInput" placeholder="Enter instruction">
+    <button onclick="addInstruction()">Add Instruction</button>
+
+    <!-- Display instruction list -->
+    <ol id="instructionList"></ol>
+
+</body>
+</html>
