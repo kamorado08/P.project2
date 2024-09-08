@@ -17,7 +17,7 @@ h1, h2 {
 
 /* Headings */
 h3 {
-    color: #555;
+    color: #c323a0;
     margin-bottom: 10px;
 }
 
@@ -34,7 +34,7 @@ input[type="text"] {
 /* Buttons */
 button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #8c28a7;
     color: white;
     border: none;
     border-radius: 4px;
